@@ -1,0 +1,28 @@
+print("hello world")
+a=bin(60)
+b=oct(60)
+c=hex(60)
+print(a,b,c)
+d=0b111+0xb
+print(oct(d))
+print(max(1,3,5))
+print(min(2,4,6))
+print(round(1.2345,2))
+import math
+print(math.floor(5.6))
+print(math.ceil(5.1))
+print(abs(4+3j))
+a=-5;a=abs(a);print(a)
+str='123456789'
+print(str[1:5],end=" ")
+print(str+str,end="")
+print(str+str[0:-1:2])
+print(str[0:-1]+'\n')
+print(str*2)
+print("hello\nworld")
+print(r"hello\nworld",end="")
+#input("\n\npress enter to finish")
+print('This is a "single line string"')
+print("""first line
+second line""")
+a=len("funplusx");print(a)
